@@ -32,6 +32,7 @@ public class LosowyObraz extends AppCompatActivity {
                 GetRandomImage getRandomImage = new GetRandomImage();
                 imageView.setImageResource(getRandomImage.getRandomImage());
                 int a;
+                String ja;
             }
         });
     }
