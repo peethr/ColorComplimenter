@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/changeColor"
+        android:icon="@drawable/ic_autorenew_black_24dp"
+        android:title="Change Color"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/color"
+        android:title="Color"
+        app:showAsAction="always" />
+    <group android:id="@+id/changeColorGroup">
+    <item
+        android:id="@+id/red"
+        android:checkable="true"
+        android:title="Red" />
+    <item
+        android:id="@+id/green"
+        android:checkable="true"
+        android:title="Green" />
+    <item
+        android:id="@+id/blue"
+        android:checkable="true"
+        android:title="Blue" />
+    </group>
+    <item
+        android:id="@+id/back"
+        android:checkable="true"
+        android:title="Back" />
+</menu>

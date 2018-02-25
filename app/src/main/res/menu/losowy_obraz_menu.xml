@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuImage"
+        android:icon="@drawable/ic_image_black_24dp"
+        android:title="Image menu"
+        app:showAsAction="always" />
+    <group android:id="@+id/obrazGroup">
+    <item
+        android:id="@+id/newImage"
+        android:title="New image" />
+    <item
+        android:id="@+id/newBackground"
+        android:title="newBackground" />
+    </group>
+</menu>
